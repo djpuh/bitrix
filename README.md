@@ -347,4 +347,3 @@ getRequestMethod(); @return null|string
 getRequestedPage(); @return string
 getDecodedUri();    @return string
 ```
-# bitrix
