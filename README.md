@@ -347,3 +347,10 @@ getRequestMethod(); @return null|string
 getRequestedPage(); @return string
 getDecodedUri();    @return string
 ```
+# BACKGROUNDJOBS
+
+```php
+Application::getInstance()->addBackgroundJob(function () use ($filePath) {
+    unlink($filePath);
+});
+```
